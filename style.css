@@ -6,7 +6,7 @@
 
 @font-face {
 	font-family: 'Figtree';
-	src: url(assets/fonts/Figtree-VaruableFont_wght.ttf);
+	src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
 }
 
 @font-face {
@@ -37,6 +37,7 @@ main {
 	max-width: 400px;
 	padding: 20px;
 	transition: box-shadow 0.2s ease-in;
+	margin: 15px;
 }
 
 main:hover {
@@ -75,12 +76,12 @@ main:hover {
 
 .publishment {
 	font-family: "Figtree-SemiBold";
-	font-size: 16px;
+	font-size: 14px;
 }
 
 h1 {
 	font-family: "Figtree-ExtraBold";
-	font-size: 28px;
+	font-size: 25px;
 }
 
 h1:hover {
@@ -111,4 +112,15 @@ h1:hover {
 .blogAutor p {
 	font-family: 'Figtree-ExtraBold';
 	font-size: 14px;
+}  
+
+@media only screen and (max-width: 1024px) {
+	h1:hover {
+		color: initial;
+		cursor: initial;
+	}
+
+	main:hover {
+		box-shadow: 8px 8px 0px black;
+	}
 }
